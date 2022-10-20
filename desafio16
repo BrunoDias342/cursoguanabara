@@ -1,0 +1,7 @@
+# crie um programa que leia um numero real qualquer pelo teclado e mostre sua porçao inteira
+
+from math import trunc
+
+n1 = float(input(" Digite um numero qualquer "))
+inteiro = trunc(n1)
+print(F" o numero inteiro é {inteiro}" )
