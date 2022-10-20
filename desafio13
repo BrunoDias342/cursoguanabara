@@ -1,0 +1,9 @@
+'''faça um algoritimo que leia o salario de um funcionario e mostre seu novo salario.
+   com 15% de aumento
+'''
+nome = input(" Qual o nome do funcionario? ")
+salario = float(input(" Qual o valor do sario do funcionario ? "))
+aumento = salario * 15 / 100
+totalsalario = salario + aumento
+
+print(f"O valor do salario sem aumento do {nome} é de {salario} com o aumento 15%  \n representando {aumento} seu novo valor total fica em R${totalsalario} ")
