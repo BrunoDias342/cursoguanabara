@@ -1,0 +1,9 @@
+'''
+ crie um programa que leia quantos reais a pessoa tem na carteira e diga quantos dolares ela pode comprar considerando 
+um dolar = 3.27 r$
+'''
+carteira = float(input("Digite o valor que ha na carteira "))
+
+conversao = carteira / 3.27
+
+print(f"o total de dolar que consegue comprar com R$ {carteira} é de US${conversao:.2f} ")
