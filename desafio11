@@ -1,0 +1,11 @@
+'''faça um programa que calcule a altura e a largura da parede em metros calcule sua area
+e a quantitade de tinta necessaria para pintar, sabendo que cada litro de tinta pinta uma area de 2m²
+'''
+
+altura = int(input("Digite a altura da parede "))
+largura = int(input("Digite a largura da parede "))
+tinta = 2
+areatotal = altura * largura
+resultado = areatotal / tinta
+
+print(f"O total de litros de tinta gastos para area de {areatotal} metros séra de {resultado} litros "
