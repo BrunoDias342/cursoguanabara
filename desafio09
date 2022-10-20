@@ -1,0 +1,13 @@
+# faça um programa que leia um numero inteiro e mostre sua tabuada
+
+
+num = int(input("Digite o numero que deseja a tabuada "))
+
+tab = 0
+
+while tab <= 19 :
+    tab += 1
+    res = num * tab
+    print(f"{num} x {tab} = {res}")
+
+print("FIM")
