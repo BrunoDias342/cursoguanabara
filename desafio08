@@ -1,0 +1,7 @@
+# escreva um programa que leia um valor em metros e o exiba convertido em  centimetros e milimitros
+
+m = float(input(" Digite a metragem "))
+c = m * 100
+mi = m * 1000
+
+print(f" A quantidade de {m} tem em centimetros {c} e em milimetros {mi}")
