@@ -1,0 +1,7 @@
+# Faça um algoritimo que leia o preço do produto e mostre seu novo preço com 5% de desconto.
+
+preco = float (input(" Diga o valor do produto. "))
+desconto = preco * 5 / 100
+valortotal = preco - desconto
+
+print(f"O valor do produto é {preco} com o desconto de 5% o produto ficara com desconto de R${desconto} \nvalor total do produto R${valortotal} ")
